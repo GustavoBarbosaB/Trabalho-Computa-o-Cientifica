@@ -1,9 +1,14 @@
-#include<stdio.h>
-#inculde<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "func.h"
 
-int main(){
+ int main(){
+     
+  int a;
 
-	printf("Hello World");
+    a = teste(1,3);
 
-return 0;
+    printf("%d \n",a);
+
+     return 0;
 }
